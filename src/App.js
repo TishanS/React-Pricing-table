@@ -11,7 +11,6 @@ import ClearIcon from '@mui/icons-material/Clear';
 import { fontSize } from '@mui/system';
 import { Scale, Transform } from '@mui/icons-material';
 
-
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -19,7 +18,6 @@ const Item = styled(Paper)(({ theme }) => ({
   textAlign: 'center',
   color: theme.palette.text.secondary,
 }));
-
 
 const BootstrapButton = styled(Button)({
 
@@ -126,9 +124,6 @@ function App() {
 
       </Grid>
     </div >
-
-
-
   );
 }
 
