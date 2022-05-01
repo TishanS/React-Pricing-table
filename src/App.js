@@ -30,9 +30,7 @@ const BootstrapButton = styled(Button)({
   },
 });
 
-
 function App() {
-
   return (
     <div style={{ background: 'blue', margin: '10px', height: '700px' }}>
       {/* <Box sx={{ flexGrow: 1 }}> */}
